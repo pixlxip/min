@@ -1,4 +1,4 @@
-name: Min
+name: Vib Build
 
 on:
   push:
