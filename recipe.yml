@@ -15,12 +15,6 @@ stages:
       - echo 'APT::Install-Recommends "1";' > /etc/apt/apt.conf.d/01norecommends
 
   modules:
-  - name: init-setup
-    type: shell
-    commands:
-    - lpkg --unlock
-    - apt-get update
-
   - name: vanilla-tools
     type: shell
     source:
